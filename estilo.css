@@ -1,0 +1,88 @@
+body{ 
+background: #ee9ca7;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #ffdde1, #ee9ca7);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #ffdde1, #ee9ca7); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+
+.contenedor{
+    padding-top: 50px;
+    padding-bottom: 50px;
+
+}
+
+/* ? ----- Cuenta Regresiva ----- */
+#cuenta {
+	display: flex;
+	justify-content: center;
+	margin-bottom: 100px;
+}
+
+.simply-section {
+	background: #fff;
+	width: 180px;
+	height: 180px;
+	margin: 0 20px;
+	border-radius: 5px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.simply-amount {
+	display: block;
+	font-size: 50px;
+	font-weight: 700;
+}
+
+.simply-word {
+	font-weight: 300;
+	font-size: 30px;
+}
+
+#cuenta2 {
+	display: flex;
+	justify-content: center;
+	margin-bottom: 100px;
+}
+h3{
+    text-align: center;
+    margin: 2%;
+}
+.contadores{
+
+    margin: 5%;
+}
+.boton{
+    margin: 5%;
+    padding: 5%;
+}
+
+@media(max-width:600px){
+    .contadores{
+
+        justify-content: center;
+        margin: 20%;
+    }
+   
+    .simply-word {
+        font-weight: 200;
+        font-size: 15px;
+    }
+    .simply-section {
+        background: #fff;
+        width: 80px;
+        height: 100px;
+        padding: 5%;
+
+        border-radius: 5px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .simply-amount {
+        display: block;
+        font-size: 20px;
+        font-weight: 700;
+    }
+}
